@@ -1,0 +1,17 @@
+Package: PackG13Lab05
+Type: Package
+Title: Readin Data - API
+Version: 1.0.0
+Date: 2021-09-25
+Author: Hamed Godazgar, Omid Lavakhamseh
+Maintainer: Hamed Godazgar <hamed.godazgar@gmail.com>
+Description: Reading Data - API
+License: GPL (>= 2)
+LazyData: true
+Encoding: UTF-8
+RoxygenNote: 7.1.2 
+Imports: readxl , httr
+Depends: R (>= 3.5)
+Suggests: 
+    testthat (>= 3.0.0)
+

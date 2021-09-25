@@ -1,0 +1,86 @@
+* using log directory 'E:/Uni/Semester 1/Period 1/732A94/Lab/Lab05/G13Lab05/PackG13Lab05.Rcheck'
+* using R version 4.1.1 (2021-08-10)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* using options '--no-manual --as-cran'
+* checking for file 'PackG13Lab05/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'PackG13Lab05' version '1.0.0'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking whether package 'PackG13Lab05' can be installed ... WARNING
+Found the following significant warnings:
+  Warning: C:/Users/Hamedg/AppData/Local/Temp/RtmpWSzMOp/Rbuild44acc9810b5/PackG13Lab05/man/PackG13Lab05-package.Rd:26: All text must be in a section
+  Warning: C:/Users/Hamedg/AppData/Local/Temp/RtmpWSzMOp/Rbuild44acc9810b5/PackG13Lab05/man/PackG13Lab05-package.Rd:27: All text must be in a section
+See 'E:/Uni/Semester 1/Period 1/732A94/Lab/Lab05/G13Lab05/PackG13Lab05.Rcheck/00install.out' for details.
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+read_data : <anonymous>: no visible global function definition for
+  'type.convert'
+Undefined global functions or variables:
+  type.convert
+Consider adding
+  importFrom("utils", "type.convert")
+to your NAMESPACE file.
+* checking Rd files ... WARNING
+prepare_Rd: PackG13Lab05-package.Rd:26: All text must be in a section
+prepare_Rd: PackG13Lab05-package.Rd:27: All text must be in a section
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... NOTE
+Unknown package '<pkg>' in Rd xrefs
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... WARNING
+Warning: parse error in file 'lines':
+11: unexpected symbol
+21: 
+22: ~~ simple examples
+              ^
+* checking examples ... ERROR
+Running examples in 'PackG13Lab05-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: PackG13Lab05-package
+> ### Title: Readin Data - API
+> ### Aliases: PackG13Lab05-package PackG13Lab05
+> ### Keywords: package
+> 
+> ### ** Examples
+> 
+> ~~ simple examples of the most important functions ~~
+Error: unexpected symbol in "~~ simple examples"
+Execution halted
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
+* DONE
+Status: 1 ERROR, 3 WARNINGs, 3 NOTEs

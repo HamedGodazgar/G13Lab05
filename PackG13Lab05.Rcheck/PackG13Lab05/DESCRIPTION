@@ -12,6 +12,7 @@ RoxygenNote: 7.1.2
 Imports: readxl , httr
 Depends: R (>= 3.5)
 Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2021-09-25 12:35:51 UTC; Hamedg
-Built: R 4.1.1; ; 2021-09-25 12:35:57 UTC; windows
+Packaged: 2021-09-25 17:19:23 UTC; Hamedg
+Built: R 4.1.1; ; 2021-09-25 17:19:31 UTC; windows

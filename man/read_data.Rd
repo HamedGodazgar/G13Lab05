@@ -5,7 +5,7 @@
 \alias{file_size}
 \title{read_data}
 \usage{
-read_data()
+read_data(url)
 }
 \arguments{
 \item{url}{the url of a file which we wanna read as a excel file}

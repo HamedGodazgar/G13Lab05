@@ -2,9 +2,13 @@
 % Please edit documentation in R/Read_Data.R
 \name{read_data}
 \alias{read_data}
+\alias{file_size}
 \title{read_data}
 \usage{
 read_data()
+}
+\arguments{
+\item{url}{the url of a file which we wanna read as a excel file}
 }
 \value{
 read excel file as a dataframe df1

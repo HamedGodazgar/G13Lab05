@@ -1,0 +1,29 @@
+---
+title: "PackG13Lab05"
+author: 'Hamed and Omid'
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{PackG13Lab05}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(PackG13Lab05)
+```
+
+This package, analyzed election of 2014 in Sweden, which the source data can be found here:
+URL : 'https://data.val.se/val/val2014/statistik/index.html'
+
+The excel file used for analysis was: '2014_riksdagsval_per_kommun'
+
+'read_data' function receives the URL which contains the excel file and cleans the data and calculates its row number and columns number as an output. Moreover, this function determines the existence of the URL as well as file size before receiving through API.  
+
+This package contains 10 Unit Tests and a shiny application which illustrates the Percentage of Winner of the above election.

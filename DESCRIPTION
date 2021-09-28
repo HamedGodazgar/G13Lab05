@@ -10,7 +10,7 @@ License: GPL (>= 2)
 LazyData: true
 Encoding: UTF-8
 RoxygenNote: 7.1.2 
-Imports: readxl , httr
+Imports: readxl , httr , RCurl
 Depends: R (>= 3.5)
 Suggests: 
     rmarkdown,

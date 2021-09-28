@@ -6,6 +6,7 @@
 #' @export file_size
 #' @import readxl
 #' @import httr
+#' @import RCurl
 #' @name read_data
 #' @references \url{https://data.val.se/val/val2014/statistik/index.html}
 #' @return read excel file as a dataframe df1
@@ -21,10 +22,13 @@ file_size <- function(url){
 } 
 
 read_data <- function(url){
-  #url<-'https://data.val.se/val/val2014/statistik/2014_riksdagsval_per_kommun.xls'
+  
+  url1<-'https://data.val.se/val/val2014/statistik/2014_riksdagsval_per_kommun.xls'
+  stopifnot(url == url1)
+  stopifnot(url.exists(url))
   file_size(url)
   GET(url, write_disk(tf <- tempfile(fileext = ".xls")))
-  Sys.sleep(15)
+  #Sys.sleep(15)
   df1 <- readxl::read_excel(tf, 1L)
   df1 <- df1[-1,]
   names(df1) <- as.matrix(df1[1, ])

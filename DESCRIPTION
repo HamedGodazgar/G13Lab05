@@ -13,5 +13,7 @@ RoxygenNote: 7.1.2
 Imports: readxl , httr
 Depends: R (>= 3.5)
 Suggests: 
+    rmarkdown,
+    knitr,
     testthat (>= 3.0.0)
-
+VignetteBuilder: knitr
